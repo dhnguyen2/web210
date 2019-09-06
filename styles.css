@@ -1,0 +1,92 @@
+/*Global styles*/
+header{
+    text-align:center;
+    color:white;
+}
+body{
+
+    background-color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+}
+
+h3{
+    font-variant: small-caps; 
+}
+
+/* Work */
+
+.work {
+    background-color: whitesmoke;
+    padding-left: 15px;
+}
+
+.paragraph{
+    width:65%;
+}
+
+.profile-img{
+    width: 200px;
+    border-radius:50%;
+    float:left;
+    padding: 10px;
+}
+
+img{
+    margin: auto;
+    margin-right:5px;
+}
+
+/* Education */
+.edu{
+    background-color: lightgreen;
+    padding-left: 15px;
+}
+
+a{
+    color: red;
+}
+a:hover{
+    color: orange;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+.italicize{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+
+.col-narrow{
+    width: 30%;
+    float: left;
+    min-height:175px;
+}
+
+.col-wide{
+    width: 70%;
+    float: left;
+    min-height:175px;
+}
+
+footer{
+    background-color: green;
+    padding-bottom:5px;
+    padding-top: 5px;
+    padding-left:15px;
+    border: 5px solid black;
+    color:white;
+    text-align:center;
+}
