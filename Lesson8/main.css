@@ -1,0 +1,163 @@
+/* grid */
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 350px 350px;
+    grid-gap: 10px;
+    justify-content: center;
+    padding-bottom:50px;
+    padding-top:50px;
+    clear:left;
+
+}
+
+
+.grid-item{
+    border: 3px solid darkblue;
+    text-align:center;
+}
+
+/*Global styles*/
+.poiret-font{
+    font-family: 'Poiret One', cursive;
+}
+
+.kellyslab-font{
+    font-family: 'Kelly Slab', cursive;
+}
+
+.pompiere-font{
+    font-family: 'Pompiere', cursive;
+    font-size:20px;
+}
+
+header{
+    color:white;
+}
+main{
+    clear:both;
+}
+body{
+
+    background-color: lightseagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+}
+
+h1{
+    font-variant: small-caps;
+    text-shadow:5px 3px 5px red, 1px 1px 5px whitesmoke;  
+    
+}
+
+.name-size{
+    font-size:72px;  
+}
+
+.profile-img{
+    width: 200px;
+    border-radius:50%;
+    float:left;
+    padding: 10px;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: orange;
+}
+
+footer{
+    background-color: royalblue;
+    padding-bottom:5px;
+    padding-top: 5px;
+    padding-left:15px;
+    border: 5px solid black;
+    color:white;
+    text-align:center;
+}
+
+#nav, #nav ul{
+    padding: 0;
+    list-style: none;
+    line-height: 1;
+}
+
+#nav a{
+    display: block;
+    width:130px;
+    text-decoration: none;
+}
+
+#nav li{
+    float:left;
+    width:200px;
+    margin-left:50px;
+    font-family: 'Pompiere', cursive;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight:bold;
+}
+
+#nav li ul{
+    position: absolute;
+    background-color: darkcyan;
+    width:130px;
+    left: -999em;
+}
+
+#nav li:hover ul{
+    left:auto;
+}
+
+#nav li ul a:hover{
+    background-color: cyan;
+    width:130px;
+}
+
+/* Media Queries*/
+
+@media (min-width: 1300px){
+    .col-narrow{
+        width: 30%;
+        float: left;
+        min-height:175px;
+    }
+    
+    .col-wide{
+        width: 70%;
+        float: left;
+        min-height:175px;
+    }
+}
+
+@media (max-width: 840px){
+  header{
+    text-align: center;
+  }
+  .name-size{
+    font-size:40px; 
+}
+}
+
+@media (max-width: 600px){
+    header{
+      text-align: center;
+    }
+    .name-size{
+      font-size:50px; 
+    }
+    .content-wrap{
+        max-width: 250px;
+        margin: 0 auto;
+        overflow:auto;
+    }
+}
