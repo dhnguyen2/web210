@@ -1,0 +1,185 @@
+/*Global styles*/
+.poiret-font{
+    font-family: 'Poiret One', cursive;
+}
+
+.kellyslab-font{
+    font-family: 'Kelly Slab', cursive;
+}
+
+.pompiere-font{
+    font-family: 'Pompiere', cursive;
+    font-size:20px;
+}
+
+#navbar {
+    width: 100%;
+
+}
+
+#nav, #nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 1;
+}
+
+#nav a{
+    display: block;
+    width:130px;
+    text-decoration: none;
+}
+
+#nav li{
+    float:left;
+    width:200px;
+    margin-left:50px;
+    font-family: 'Pompiere', cursive;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight:bold;
+}
+
+#nav li ul{
+    position: absolute;
+    background-color: darkcyan;
+    width:130px;
+    left: -999em;
+}
+
+#nav li:hover ul{
+    left:auto;
+}
+
+#nav li ul a:hover{
+    background-color: cyan;
+    width:130px;
+}
+header{
+
+    color:white;
+}
+main{
+    clear:both;
+}
+body{
+    background-color: lightseagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+}
+
+h1{
+    font-variant: small-caps;
+    text-shadow:5px 3px 5px red, 1px 1px 5px whitesmoke;  
+    
+}
+
+.name-size{
+    font-size:52px;  
+}
+
+h3{
+    font-variant: small-caps; 
+}
+
+/* Work */
+
+.work {
+    background-color: whitesmoke;
+}
+
+.paragraph{
+    width:65%;
+}
+
+.profile-img{
+    width: 200px;
+    border-radius:50%;
+    float:left;
+    padding: 10px;
+}
+
+img{
+    margin: auto;
+    margin-right:5px;
+}
+
+/* Education */
+.edu{
+    background-color: lightseagreen;
+    padding-left: 15px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: orange;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+.italicize{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+
+
+footer{
+    background-color: royalblue;
+    padding-bottom:5px;
+    padding-top: 5px;
+    padding-left:15px;
+    border: 5px solid black;
+    color:white;
+    text-align:center;
+}
+
+/* Media Queries*/
+
+@media (min-width: 1300px){
+    .col-narrow{
+        width: 30%;
+        float: left;
+        min-height:175px;
+    }
+    
+    .col-wide{
+        width: 70%;
+        float: left;
+        min-height:175px;
+    }
+}
+
+@media (max-width: 840px){
+  header{
+    text-align: center;
+  }
+  .name-size{
+    font-size:40px; 
+}
+    img{
+        width:100px;
+    }
+}
+
+@media (max-width: 600px){
+    header{
+      text-align: center;
+    }
+    .name-size{
+      font-size:50px; 
+    }
+    .content-wrap{
+        max-width: 250px;
+        margin: 0 auto;
+        overflow:auto;
+    }
+}

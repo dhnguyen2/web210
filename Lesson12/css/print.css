@@ -1,0 +1,48 @@
+* {
+    color: #000000 !important;
+}
+#banner{
+    line-height: 19px;
+}
+#navbar, #footerNav, img{
+    display:none;
+}
+
+#work{
+    text-align:center;
+   line-height: 1pt;
+}
+
+#center{
+    width:auto;
+    text-align: center;
+    line-height: 23px;
+}
+
+#mainFooter{
+    overflow:visible;
+
+}
+
+#spacing{
+    line-height: 1px;
+}
+
+h1{
+    font-variant: small-caps;
+    text-shadow:none;
+    
+}
+
+h2{
+    text-align:center;
+    font-size:25px !important;
+}
+
+h3{
+    text-align:center;
+}
+footer{
+    border: 0px;
+    text-align:center;
+}
